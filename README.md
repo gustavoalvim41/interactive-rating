@@ -1,9 +1,9 @@
-<h1 align="center">Interactive Rating Component</h1>
+<h1 align="center">Interactive rating</h1>
 
 <div align="center" id="top">
-  <img src="./design/desktop-design.jpg" alt="Interactive Rating Component"/>
+  <img src="./design/desktop-design.jpg" alt="Interactive rating "/>
 
-  <a href="https://gustavoalvim41.github.io/interactive-rating-component/">Demo</a>
+  <a href="https://gustavoalvim41.github.io/interactive-rating/">Demo</a>
 </div>
 
 ## 📁 Sobre o Projeto
@@ -34,7 +34,7 @@ Este é um projeto pequeno e agradável que me fez praticar o manuseio das inter
 Faça um clone do desafio:
 
   ```
-  git clone https://github.com/gustavoalvim41/interactive-rating-component.git
+  git clone https://github.com/gustavoalvim41/interactive-rating.git
   ```
 
 
