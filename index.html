@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Global CSS -->
+	<link rel="stylesheet" type="text/css" href="./styles/global.css">
+
+	<!-- Icon HTML -->
+	<link rel="icon" type="text/css" href="./assets/icon.png">
+
+	<!-- Font Overpass -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+	<title>Interactive rating component</title>
+</head>
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="app">
+		<main>
+			<article class="review">
+				<div class="star">
+					<img src="./assets/icon-star.svg" alt="icon star">
+				</div>
+				<h2 class="title-rating">How did we do?</h2>
+				<p class="paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+				<div class="rating-grades">
+					<button class="btn">1</button>
+					<button class="btn">2</button>
+					<button class="btn">3</button>
+					<button class="btn">4</button>
+					<button class="btn">5</button>
+				</div>
+				<button class="btn-submit">Submit</button>
+			</article>
+			<article class="thank-you invisible">
+				<img src="./assets/illustration-thank-you.svg" alt="thank you">
+				<div class="you-selected">You selected <span>4</span> out of 5</div>
+				<h3 class="title-thank-you">Thank you!</h3>
+				<p class="paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+			</article>
+		</main>
+	</div>
+	<script src="./scripts/index.js"></script>
+</body>
+</html>

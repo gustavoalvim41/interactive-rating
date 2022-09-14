@@ -1,0 +1,145 @@
+.review {
+	width: 390px;
+	padding: 2rem;
+	border-radius: 2rem;
+
+	color: var(--white);
+	background: linear-gradient(320deg, var(--bottom-gradient) 0%, var(--top-gradient) 100%);
+}
+
+.star {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+
+	margin-bottom: 2rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: var(--bg-star);
+}
+
+.title-rating {
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 2rem;
+
+	margin-bottom: 0.6rem;
+}
+
+.paragraph {
+	font-size: 0.938rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+
+	color: var(--medium-grey);
+}
+
+.rating-grades {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: 1.5rem;
+}
+
+.rating-grades button {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+
+	font-weight: 700;
+
+	color: var(--light-grey);
+	background-color: var(--bg-star);
+}
+
+.rating-grades button:hover {
+	font-weight: 700;
+	transition: 0.3s ease;
+	color: var(--white);
+	background-color: var(--light-grey);
+}
+
+.rating-grades button.active {
+	color: var(--white);
+	background-color: var(--orange);
+}
+
+.btn-submit {
+	width: 100%;
+	padding: 0.8rem;
+	border-radius: 2rem;
+
+	font-size: 0.938rem;
+	font-weight: 700;
+
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+
+	margin-top: 1.5rem;
+
+	color: var(--white);
+	background-color: var(--orange);
+}
+
+.btn-submit:hover {
+	color: var(--orange);
+	background-color: var(--white);
+}
+
+.thank-you {
+	width: 390px;
+	padding: 1.5rem;
+	border-radius: 2rem;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	color: var(--white);
+	background: linear-gradient(320deg, var(--bottom-gradient) 0%, var(--top-gradient) 100%);
+}
+
+.thank-you img {
+	margin-top: 1.25rem;
+	margin-bottom: 2rem;
+}
+
+.you-selected  {
+	width: 200px;
+	padding: 0.2rem;
+	border-radius: 2rem;
+
+	margin-bottom: 2rem;
+
+	color: var(--orange);
+	background-color: var(--bg-star);
+}
+
+.title-thank-you {
+	font-size: 1.5rem;
+	font-weight: 700;
+
+	margin-bottom: 0.6rem;
+}
+
+.thank-you-state p {
+	margin-bottom: 1.25rem;
+}
+
+.invisible {
+	display: none;
+}
+
+@media screen and (max-width: 414px) { 
+	.review,
+	.thank-you {
+		width: 100%;
+	}
+}

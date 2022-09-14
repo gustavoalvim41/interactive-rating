@@ -1,0 +1,50 @@
+@import url('./app.css');
+@import url('./index.css');
+@import url('./');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+:root {
+	--orange: #fb7413;
+	--white: #ffffff;
+	--light-grey: #959eac;
+	--medium-grey: #7c8798;
+	--dark-blue:  #252d37;
+	--very-dark-blue: #121417;
+	--top-gradient: #252D37;
+	--bottom-gradient: #161D28;
+	--bg-star: #252f39;
+}
+
+body {
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Overpass', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+ 	cursor: pointer;
+ 	opacity: 0.9;
+}
+
+button {
+  	border: 0;
+}
+
+button:hover {
+  	cursor: pointer;
+  	opacity: 0.9;
+}
